@@ -1,0 +1,113 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 2,
+      "layerId": "River_Network_55c85bca_2bd4_4ba0_9b9d_2520dbe2e1a8",
+      "name": "River_Network",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "checkBox": false,
+          "type": 9
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_bd3ffe69_db91_4773_a525_b79103c55635",
+      "name": "Output",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Watershed_Boundary_b84a1798_cf22_4961_8c1b_8174922f4264",
+      "name": "Watershed_Boundary",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_28a752f8_a8fa_4c61_977a_a4f223d50198",
+      "name": "DEM",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "Watershed_Boundary_b84a1798_cf22_4961_8c1b_8174922f4264",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 3,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "D:/geopy/IntroToQGIS/Project2\\Watershed3Dmodel.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": false,
+    "checkBox_Outline": false,
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_CenterX": "784946.5528168224",
+    "lineEdit_CenterY": "488653.1649578236",
+    "lineEdit_Height": "81394.59979774832",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "107935.32915670145",
+    "lineEdit_zFactor": "2.5",
+    "lineEdit_zShift": "0"
+  },
+  "Template": "3DViewer.html",
+  "Title": "QGIS3Dmodel"
+}
