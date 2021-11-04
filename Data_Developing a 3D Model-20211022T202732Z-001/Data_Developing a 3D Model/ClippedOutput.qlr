@@ -1,0 +1,179 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer source="C:/Users/danie/AppData/Local/Temp/processing_FniHNr/dcaf0b93dfb54b72ad955bbf59fb725e/OUTPUT.sdat" patch_size="-1,-1" providerKey="gdal" checked="Qt::Checked" id="OUTPUT_bd3ffe69_db91_4773_a525_b79103c55635" expanded="1" legend_exp="" name="Output" legend_split_behavior="0">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>101.3329166666666481</xmin>
+        <ymin>4.06708333333333005</ymin>
+        <xmax>101.92291666666662309</xmax>
+        <ymax>4.76291666666663538</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>101.3329166666666481</xmin>
+        <ymin>4.06708333333333005</ymin>
+        <xmax>101.92291666666662309</xmax>
+        <ymax>4.76291666666663538</ymax>
+      </wgs84extent>
+      <id>OUTPUT_bd3ffe69_db91_4773_a525_b79103c55635</id>
+      <datasource>C:/Users/danie/AppData/Local/Temp/processing_FniHNr/dcaf0b93dfb54b72ad955bbf59fb725e/OUTPUT.sdat</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Output</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxx="0" crs="" minx="0" maxy="0" dimensions="2" maxz="0" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" enabled="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="false" name="WMSBackgroundLayer" type="bool"/>
+          <Option value="false" name="WMSPublishDataSourceUrl" type="bool"/>
+          <Option value="0" name="embeddedWidgets/count" type="int"/>
+          <Option value="Value" name="identify/format" type="QString"/>
+        </Option>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling zoomedInResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer band="1" classificationMin="74" classificationMax="2091" nodataColor="" opacity="1" alphaBand="-1" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader labelPrecision="0" clip="0" minimumValue="74" colorRampType="INTERPOLATED" classificationMode="3" maximumValue="2091">
+              <colorramp name="[source]" type="gradient">
+                <Option type="Map">
+                  <Option value="0,0,255,255" name="color1" type="QString"/>
+                  <Option value="34,96,35,255" name="color2" type="QString"/>
+                  <Option value="0" name="discrete" type="QString"/>
+                  <Option value="gradient" name="rampType" type="QString"/>
+                  <Option value="0.105809;228,148,0,255:0.465404;136,191,0,255" name="stops" type="QString"/>
+                </Option>
+                <prop k="color1" v="0,0,255,255"/>
+                <prop k="color2" v="34,96,35,255"/>
+                <prop k="discrete" v="0"/>
+                <prop k="rampType" v="gradient"/>
+                <prop k="stops" v="0.105809;228,148,0,255:0.465404;136,191,0,255"/>
+              </colorramp>
+              <item color="#0000ff" label="66" alpha="255" value="66"/>
+              <item color="#e39500" label="142" alpha="255" value="142"/>
+              <item color="#c6a200" label="184" alpha="255" value="184"/>
+              <item color="#aaaf00" label="223" alpha="255" value="223"/>
+              <item color="#8ebd00" label="284" alpha="255" value="284"/>
+              <item color="#77af06" label="439" alpha="255" value="439"/>
+              <item color="#629b0d" label="745" alpha="255" value="745"/>
+              <item color="#4d8815" label="1054" alpha="255" value="1054"/>
+              <item color="#37741c" label="1350" alpha="255" value="1350"/>
+              <item color="#226023" label="2091" alpha="255" value="2091"/>
+              <rampLegendSettings suffix="" prefix="" maximumLabel="" direction="0" minimumLabel="" useContinuousLegend="1" orientation="2">
+                <numericFormat id="basic">
+                  <Option type="Map">
+                    <Option value="" name="decimal_separator" type="QChar"/>
+                    <Option value="6" name="decimals" type="int"/>
+                    <Option value="0" name="rounding_type" type="int"/>
+                    <Option value="false" name="show_plus" type="bool"/>
+                    <Option value="true" name="show_thousand_separator" type="bool"/>
+                    <Option value="false" name="show_trailing_zeros" type="bool"/>
+                    <Option value="" name="thousand_separator" type="QChar"/>
+                  </Option>
+                </numericFormat>
+              </rampLegendSettings>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" gamma="1" brightness="0"/>
+        <huesaturation grayscaleMode="0" colorizeBlue="128" colorizeRed="255" saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
